@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BlossomGateway-Common" />
+        <module name="BlossomGateway-Config-Center-Nacos-Impl" />
+        <module name="BlossomGateway-Register-Center" />
+        <module name="BlossomGateway-Dubbo-Service" />
+        <module name="BlossomGateway-Http" />
+        <module name="BlossomRPC-Client" />
+        <module name="BlossomGateway-Register-Center-Nacos-Impl" />
+        <module name="BlossomRPC-Core" />
+        <module name="BlossomGateway-Register-Center-Api" />
+        <module name="BlossomGateway-Config-Center-Api" />
+        <module name="BlossomGateway-Dubbo-Interface" />
+        <module name="BlossomGateway-Core" />
+        <module name="BlossomGateway-Client" />
+        <module name="BlossomGateway-Dubbo-Web" />
+        <module name="BlossomRPC-Server" />
+        <module name="BlossomGateway-Config-Center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BlossomGateway-UserService" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BlossomGateway-UserService" options="-parameters" />
+      <module name="BlossomRPC-Core" options="" />
+    </option>
+  </component>
+</project>
